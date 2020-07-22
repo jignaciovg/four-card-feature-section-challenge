@@ -115,5 +115,54 @@ footer p a{
 }
 
 @media(min-width:1440px){
+    .FirstContent{
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 2rem;
+    }
+    .FirstContent p{
+        text-align: center;
+        margin-left: 32rem;
+        margin-right: 32rem;
+    }
+    .ti{
+        font-size: 32px;
+    }
+    
+    h2.sub{
+        font-size: 32px;
+    }
+    
+    .SecondContent{
+        width: 100%;
+        margin: 0;
+    }
+    .container-card{
+        width: 100%;
+        display: flex;
+        
+        justify-content: center;
+        margin: 0;
+        margin-bottom: 4rem;
+    }
+    .card img{
+        margin-top: 1.3rem;
+        margin-bottom: 1.2rem;;
+    }
+    .card{
+        width: 320px;
+        margin-top: 1rem;
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+    .left{
+        display: inline-block;
+        align-self: center;
+    }
+    .right{
+        display: inline-block;
+        align-self: center;
+    }
     
 }
