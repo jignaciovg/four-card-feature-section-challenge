@@ -4,16 +4,31 @@ html{
 }
 
 .FirstContent{
+    margin-top: 4rem;
     margin-left: 1rem;
     margin-right: 1rem;
-    margin-bottom: 5rem;
+    margin-bottom: 4rem;
+}
+
+.ti{
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 0;
+    margin-bottom: .3rem;
+}
+.FirstContent .ti{
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 .FirstContent h2{
     text-align: center;
+    font-size: 1.6rem;
+    margin: 0;
 }
 
 .FirstContent p{
+    text-align: center;
     margin-left: 2rem;
     margin-right: 2rem;
 }
@@ -75,7 +90,24 @@ html{
 .container-card{
     margin-left: 1rem;
     margin-right: 1rem;
+    margin-bottom: 6rem;
     }
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: darkblue;
+    color: white;
+    padding-top: .1rem;
+    padding-bottom: .1rem;
+}
+
+footer p a{
+    color: white;
+}
 
 /*MEDIA QUERY*/
 @media(min-width:375px){
