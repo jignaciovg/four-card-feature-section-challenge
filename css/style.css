@@ -1,0 +1,87 @@
+html{
+    background-color: hsl(0, 0%, 98%);
+    font-size: 16px;
+}
+
+.FirstContent{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 5rem;
+}
+
+.FirstContent h2{
+    text-align: center;
+}
+
+.FirstContent p{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+/*CARDS*/
+.card{
+    border-radius: 3px;
+    background-color: whitesmoke;
+}
+
+.info{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.image{
+    display: block;
+    text-align: end;
+}
+
+.card img{
+    margin-right: 30px;
+    margin-bottom: 15px;
+    height: 57px;
+}
+
+.border-card{
+    height: 5px;  
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px; 
+}
+
+.border-color-supervisor{
+    background-color: hsl(180, 62%, 55%);
+}
+
+.border-color-team{
+    background-color: hsl(0, 78%, 62%);
+}
+.border-color-karma{
+    background-color: hsl(34, 97%, 64%);
+}
+.border-color-calculator{
+    background-color: hsl(212, 86%, 64%);
+}
+
+.light-text{
+    color:hsl(229, 6%, 66%);
+}
+.bold-text{
+    color: hsl(234, 12%, 34%);
+}
+
+.card{
+    margin-bottom: 2rem;
+    box-shadow: 0px 10px 10px hsl(229, 2%, 80%);
+    }
+    
+.container-card{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    }
+
+/*MEDIA QUERY*/
+@media(min-width:375px){
+    
+}
+
+@media(min-width:1440px){
+    
+}
